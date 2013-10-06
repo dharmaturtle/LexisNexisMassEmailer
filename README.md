@@ -1,12 +1,12 @@
 # Lexis Nexis Mass Emailer
 
-This uses a headless browser to email mass news articles in Lexis Nexis's database regarding certain political subjects between specified date ranges to a randomly selected email addresses. This is because downloading files with a headlessbrowser is virtually impossible. It uses parallel processing to email the documents in parallel
+This uses a headless browser (Selenium/PhantomJS) to email articles in Lexis Nexis's database about specified subjects between specified date ranges to an email address. The email is necessary because downloading files with PhantomJS is virtually impossible. This script uses parallel processing to expedite matters. Included are support scripts to download the attachments and rename them according to their contents.
 
 ## Caution
 
 **Be careful when running multiple instances of this program. You may be blacklisted from Lexis Nexis. This has happened before!**
 
-I successfully ran 3 instances of this script (12 concurrent threads, given the 4 cores) without getting black listed. Your mileage may vary. Just because you're running this on a university network does **NOT** mean your mass traffic will go unnoticed by Lexis Nexis.
+I successfully ran 3 instances of this script (12 concurrent threads, given the 4 cores) without getting black listed. Your mileage may vary. Just because you're running this on a university network does **NOT** mean your traffic will go unnoticed by Lexis Nexis.
 
 ## Programming style:
 
