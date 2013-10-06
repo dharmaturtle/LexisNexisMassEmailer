@@ -8,7 +8,7 @@ This uses a headless browser (Selenium/PhantomJS) to email articles in Lexis Nex
 
 I successfully ran 3 instances of this script (12 concurrent threads, given the 4 cores) without getting black listed. Your mileage may vary. Just because you're running this on a university network does **NOT** mean your traffic will go unnoticed by Lexis Nexis.
 
-## Programming style:
+## Programming style
 
 This was written primarily for personal use, so some conventions like line length limits are ignored.
 
